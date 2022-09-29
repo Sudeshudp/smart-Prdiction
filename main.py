@@ -6,10 +6,6 @@ from joblib import dump, load
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-# Trees Approach
-from sklearn.tree import DecisionTreeClassifier
-# Ensemble Approach
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import classification_report
 
